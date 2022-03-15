@@ -1,14 +1,11 @@
+import React from 'react';
 import './App.css';
+import Main from './MainComponent';
 
 function App() {
   return (
     <div>
-      <div className="App-header">
-        <h1>Derek Ewell</h1>
-      </div>
-      <div>
-        <h2>Profile Page</h2>
-      </div>
+      <Main/>
     </div>
   );
 }
